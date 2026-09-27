@@ -67,3 +67,22 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Entornos virtuales de Python
+.venv/
+venv/
+
+# Archivos temporales de Jupyter y Python
+.ipynb_checkpoints/
+__pycache__/
+
+# Archivos temporales de Octave
+octave-workspace
+
+# Archivos compilados de C/C++
+build/
+*.exe
+*.out
+
+#JSON Settings
+.json
